@@ -22,7 +22,11 @@ code {
   border-style: none;
   color:deeppink;
   background-color: white;
-  
+  border-radius: 10px;
+}
+.homeBtn:hover{
+  background-color: deeppink;
+  color:aliceblue;
 }
 .titleBtn{
   height: 40px;
@@ -32,6 +36,10 @@ code {
   background-color: deeppink;
   color:aliceblue;
   border-radius: 10px;
+}
+.titleBtn:hover{
+  color:deeppink;
+  background-color: white;
 }
 .contentDiv{
   margin-left: 220px;
