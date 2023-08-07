@@ -10,7 +10,7 @@ const Navbar = () => {
          <button className='titleBtn'>New Blog</button>
         </div>
   </div>
-  <hr/>
+  
     </>
   
   )

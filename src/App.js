@@ -4,12 +4,28 @@ import Content from './content';
 
 
 
+const data = [
+  {
+    title: "name1",
+    author: "author1"
+  },
+  {
+    title: "name2",
+    author: "author2"
+  }
+]
 
 export default function Hello() {
+
+
   return (
     <div>
       <Navbar />
-      <Content />
+      <hr />
+      <Content data1={data} />
+     
     </div>
   );
+
+
 }
