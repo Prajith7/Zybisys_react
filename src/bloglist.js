@@ -15,7 +15,6 @@ const Bloglist = (props) => {
             }
           })
         )
-
       })}
     </div>
   )
